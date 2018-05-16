@@ -13,7 +13,7 @@ from pptx.enum.text import PP_PARAGRAPH_ALIGNMENT
 from pptx.enum.chart import XL_LABEL_POSITION
 
 #Data Import
-raw_data = pd.read_excel('C:\Users\\586226\Documents\InputData.xlsx' ,'Sheet1')
+raw_data = pd.read_excel('C:\Users\Prakash\Documents\InputData.xlsx' ,'Sheet1')
 #Filtering required columns
 data=raw_data[['Number','Created','Priority', 'Month']]
 
